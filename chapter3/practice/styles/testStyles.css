@@ -1,0 +1,77 @@
+/*
+div {color: green; background-color: orange;}
+
+.boldText {font-weight: bold;}
+
+#gn {font-style: italic;}
+
+div p 
+{
+	border-style: dotted; 
+	border-weight: 3px; 
+	border-color: black;
+}
+*/
+/*
+p img
+
+p.special img
+*/
+/*
+div
+{
+	background-color: #ffffff;
+}
+*/
+body 
+{
+	/*background-color: red; */
+	background-color: #d7e5e2;
+}
+
+div
+{
+	background-color: white;
+	background-image: url("../images/stripe.png");
+	background-repeat: repeat;
+	height: 300px;
+	width: 90%;
+	border-style: solid;
+	border-width: 10px;
+	border-width: 10px 5px 10px 5px;
+	border-color: blue;
+	border-color: blue red green yellow; /*TRBL (Top, Right, Bottom, Left)*/
+
+	margin: 25px;
+	padding: 10px;
+
+	font-size: 2em;
+	font-size: 2rem;
+
+	font-family: Cambria, Georgia, "Times New Roman", serif;
+	font-style: italic;
+	font-weight: bolder;
+}
+
+p
+{
+	font-size: 2em;
+	font-size: 2rem;
+}
+/*
+div
+{
+	background-color: green;
+}
+*/
+/*
+.boldText
+{
+	background-color: #d2f29f;
+}
+#special
+{
+	background-color: red;
+	color: white;
+}
+*/

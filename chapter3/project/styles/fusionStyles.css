@@ -1,0 +1,38 @@
+h1,h2,h3,h4,h5,h6
+{
+	background-color: #d7e1f2;
+	font-weight: bold
+	color: #1f2123;
+}
+
+div.dish
+{
+	background-color: rgb(247, 185, 86);
+	padding: 10px;
+	margin: 10px;
+	border-style: dashed;
+	border-weight: 2px;
+	border-color: blue;
+}
+
+header, footer
+{
+	background-color: #bc8e43;
+}
+
+footer
+{
+	font-size: 0.5rem;
+}
+
+nav
+{
+	background-color: #474644;
+	color: white;
+}
+/*
+nav li 
+{
+	list-style: none;
+}
+*/
