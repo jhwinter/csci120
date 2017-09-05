@@ -30,9 +30,45 @@ nav
 	background-color: #474644;
 	color: white;
 }
-/*
+
 nav li 
 {
 	list-style: none;
 }
-*/
+
+dish h1,h2,h3,h4,h5
+{
+	font-style: italic;
+}
+
+div.dish 
+{
+	border-radius: 2%;
+}
+
+#location
+{
+	list-style-image: url("../images/arrowFile.png");
+}
+
+a:visited
+{
+	color: green;
+}
+
+nav a:visited
+{
+	color: orange;
+	text-decoration: none;
+}
+
+div.dish details
+{
+	color: red;
+}
+
+p.underConstruction
+{
+	color: orange;
+	font-style: italic;
+}
