@@ -1,7 +1,7 @@
 h1,h2,h3,h4,h5,h6
 {
 	background-color: #d7e1f2;
-	font-weight: bold
+	font-weight: bold;
 	color: #1f2123;
 }
 
@@ -36,14 +36,14 @@ nav li
 	list-style: none;
 }
 
-dish h1,h2,h3,h4,h5
+div.dish h1,h2,h3,h4,h5
 {
 	font-style: italic;
 }
 
 div.dish 
 {
-	border-radius: 2%;
+	border-radius: 5%;
 }
 
 #location
