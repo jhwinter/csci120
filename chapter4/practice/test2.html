@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forms Part 2</title>
+	</head>
+
+
+	<body>
+		<form method="get" action="#">
+			<fieldset>
+				<legend>Create Recipe</legend>
+
+				<p>
+					<label for="rName">Recipe Name</label>
+					<input type="text" name="rName" id="rName"/>
+				</p>
+
+				<p>
+					<label for="rCategory">Recipe Category</label>
+					<select name="rCategory" id="rCategory">
+						<option>Appetizers</option>
+						<option>Main Entree</option>
+						<option>Dessert</option>
+					</select>
+				</p>
+
+				<p>
+					<label for="rDescr">Description</label>
+					<textarea id="rDescr" name="rDescr" rows="10">
+					Put something here
+					</textarea>
+				</p>
+
+				<p>
+					<label for="rSecret">Secret Ingredient</label>
+					<input type="password" name="rSecret" id="rSecret"/>
+				</p>
+
+				<p>
+					<label for="email">Email</label>
+					<input type="email" name="email"/>
+				</p>
+
+				<p>
+					<label for="phone"> Phone </label>
+					<input type="text" name="phone" id="phone" placeholder="####-###-####" required="true"/>
+				</p>
+
+				<p>
+					<label for="difficulty">Difficulty Level</label> <br />
+					<input type="radio" name="difficulty" value="1" checked>Beginner<br />
+					<input type="radio" name="difficulty" value="2">Intermediate<br />
+					<input type="radio" name="difficulty" value="3">Advanced<br />
+				</p>
+
+				<p>
+					<label for="uses">Uses</label> <br />
+					<input type="checkbox" name="uses" value="breakfast"/>Breakfast<br />
+					<input type="checkbox" name="uses" value="lunch"/>Lunch<br />
+					<input type="checkbox" name="uses" value="dinner"/>Dinner<br />
+					<input type="checkbox" name="uses" value="brunch"/>Brunch<br />
+					<input type="checkbox" name="uses" value="snack"/>Snack<br />
+				</p>
+
+				<p>
+					<label for="spiceLevel">Rate this recipe:</label> <br />
+					Mild<input type="range" min="1" max="5" step="1" name="spiceLevel"/>Spicy
+				</p>
+
+				<p>
+					<label for="rBackground">Choose color</label>
+					<input type="color" name="rBackground"/>
+				</p>
+
+				<p>
+					<label>Expire Date</label>
+					<input type="date"/>
+				</p>
+
+
+
+
+				<input type="submit"/>
+				<input type="reset" value="Clear form"/>
+			</fieldset>
+		</form>
+
+
+	</body>
+
+
+
+</html>

@@ -77,3 +77,33 @@ p.underConstruction
 	color: orange;
 	font-style: italic;
 }
+
+table
+{
+	border: solid 1pt black;
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: solid 1pt black;
+}
+
+tbody tr:nth-child(odd)
+{
+	background-color: green;
+}
+
+tbody tr:hover
+{
+	background-color: blue;
+	color: white;
+}
+
+.orderTable
+{
+	border: solid 1pt black;
+	border-collapse: collapse;
+	background-color: white;
+	color: black;
+}

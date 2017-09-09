@@ -1,0 +1,22 @@
+table
+{
+	border: solid 1pt black;
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: solid 1pt black;
+}
+
+tbody tr:nth-child(odd)
+{
+	background-color: yellow;
+}
+
+tbody tr:hover
+{
+	background-color: orange;
+	color: grey;
+}
+

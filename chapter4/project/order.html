@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Online Ordering</title>
+		<link rel="stylesheet" href="styles/fusionStyles.css"/>
+	</head>
+
+	<body>
+		<header>Jon's Food Fusion<br>
+			<img src="images/logo.jpeg" alt="Jon's Food Fusion"/>
+			<nav>
+				<ul>
+					<li><a href="index.html">Index</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="breakfast.html">Breakfast</a></li>
+					<li><a href="lunch.html">Lunch</a></li>
+					<li><a href="dinner.html">Dinner</a></li>
+					<li><a href="extras.html">Appetizers and Extras</a></li>
+					<li><a href="locations.html">Locations</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="events.html">Special Events</a></li>
+					<li><a href="order.html">Online Ordering</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<h1>Online Ordering</h1>
+
+		<!--<p class="underConstruction">This page coming soon.</p>-->
+
+		<form method="get" action="#">
+			<fieldset>
+				<table class="orderTable">
+					<caption>Online Ordering</caption>
+					<thead class="orderTable">
+						<th scope="col" class="orderTable">Dish Name</th>
+						<th scope="col" class="orderTable">Price</th>
+						<th scope="col" class="orderTable">Quantity</th>
+					</thead>
+
+					<tbody class="orderTable">
+						<tr class="orderTable">
+							<td class="orderTable">Breakfast Tacos</td>
+							<td class="orderTable">$5.00</td>
+							<td class="orderTable">
+								<input type="number" name="bTacosQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">The Classic</td>
+							<td class="orderTable">$5.00</td>
+							<td class="orderTable">
+								<input type="number" name="bClassicQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Keto Pizza</td>
+							<td class="orderTable">$7.00</td>
+							<td class="orderTable">
+								<input type="number" name="lPizzaQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Oven Bacon Wrapped Chicken Tenders</td>
+							<td class="orderTable">$7.00</td>
+							<td class="orderTable">
+								<input type="number" name="lTendersQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Butter Coffee Rubbed Tri-Tip Steak</td>
+							<td class="orderTable">$10.00</td>
+							<td class="orderTable">
+								<input type="number" name="dSteakQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Slow Cooker Beef & Broccoli</td>
+							<td class="orderTable">$10.00</td>
+							<td class="orderTable">
+								<input type="number" name="dBeefQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Marinated Cheese Tray</td>
+							<td class="orderTable">$2.00</td>
+							<td class="orderTable">
+								<input type="number" name="extTrayQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Chocolate Peanut Butter Dirt Cake</td>
+							<td class="orderTable">$2.00</td>
+							<td class="orderTable">
+								<input type="number" name="extCakeQuant" min="0" max="10"/>
+							</td>
+						</tr>
+						<tr class="orderTable">
+							<td class="orderTable">Total</td>
+							<td class="orderTable">
+							<input type="submit" value="Place Order"/>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</fieldset>
+		</form>
+
+		<footer>
+			<ul>
+				<li><a href="survey.html">Help us serve you better</a></li>
+				<li><a href="employment.html">Job Opportunities</a></li>
+			</ul>
+			&copy;
+		</footer>
+	</body>
+<html>
