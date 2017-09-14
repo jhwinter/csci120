@@ -1,0 +1,17 @@
+#left
+{
+	background-color: blue;
+	margin: 5px;
+	padding: 5px;
+	width: 20%;
+	float: left;
+}
+
+#main
+{
+	background-color: red;
+	margin: 5px;
+	padding: 5px;
+	width: 75%;
+	float: right;
+}

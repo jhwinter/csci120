@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Help us serve you better</title>
+		<link rel="stylesheet" href="styles/fusionStyles.css"/>
+		<meta charset="UTF-8">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+	</head>
+
+	<body>
+		<header>Jon's Food Fusion<br>
+			<img src="images/logo.jpeg" alt="Jon's Food Fusion"/>
+			<nav>
+				<ul>
+					<li><a href="index.html">Index</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="breakfast.html">Breakfast</a></li>
+					<li><a href="lunch.html">Lunch</a></li>
+					<li><a href="dinner.html">Dinner</a></li>
+					<li><a href="extras.html">Appetizers and Extras</a></li>
+					<li><a href="locations.html">Locations</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="events.html">Special Events</a></li>
+					<li><a href="order.html">Online Ordering</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<h1>Help us serve you better</h1>
+
+		<!--<p class="underConstruction">This page coming soon.</p>-->
+		<div class="container-fluid">
+			<form method="get" action="#">
+				<fieldset>
+					<legend>Survey</legend>
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input type="text" class="form-control" name="name" id="name"
+						placeholder="John Smith" required=true/>
+					</div>			
+				
+					<div class="form-group">
+						<label for="phone">Phone:</label>
+						<input type="text" class="form-control" name="phone" id="phone" placeholder="####-###-####"/>
+					</div>
+
+					<div class="form-group">
+						<label for="favDish">Favorite Dish</label>
+						<select class="form-control" name="favDish" id="favDish">
+							<option>Breakfast Tacos</option>
+							<option>The Classic</option>
+							<option>Keto Pizza</option>
+							<option>Oven Bacon Wrapped Chicken Tenders</option>
+							<option>Butter Coffee Rubbed Tri-Tip Steak</option>
+							<option>Slow Cooker Beef & Broccoli</option>
+							<option>Marinated Cheese Tray</option>
+							<option>Chocolate Peanut Butter Dirt Cake</opion>
+						</select>
+					</div>
+
+					<div>
+						<label for="restRating">Restaurant Rating</label> <br />
+						1<input type="range" min="1" max="10" step="1" name="restRating"/>10
+					</div>
+
+					<div class="form-group">
+						<label for="restComments">Comments:</label> <br />
+						<textarea class="form-control" id="restComments" name="restComments" rows="10">How can we serve you better?</textarea>
+					</div>
+
+					<div class="form-group">
+						<label name="visitDate">When did you visit us?</label>
+						<input type="date" name="visitDate" id="visitDate"/>
+					</div>
+
+					<div class="form-check">
+						<label for="visitTime">What time did you visit us?</label> <br />
+						<input type="radio" name="visitTime" value="1" checked/>Early
+					</div>
+					<div class="form-check">
+						<input type="radio" name="visitTime" value="2"/>Midday
+					</div>
+					<div class="form-check">
+						<input type="radio" name="visitTime" value="3"/>Afternoon
+					</div>
+					<div class="form-check">
+						<input type="radio" name="visitTime" value="4"/>Evening
+					</div>
+
+					<div class="form-check">
+						<label for="sPublish">Do you allow us to use your responses in the published version of this survey?</label>
+						<input type="checkbox" name="sPublish" value="yes"/>yes
+					</div>
+					
+
+					<!--<input type="submit"/>-->
+					<!--<input type="reset" value="Clear form"/>-->
+					<button type="submit" class="btn btn-success">Submit</button>
+					<button type="reset" class="btn btn-danger">Reset</button>
+				</fieldset>
+			</form>
+
+			<footer>
+				<ul>
+					<li><a href="survey.html">Help us serve you better</a></li>
+					<li><a href="employment.html">Job Opportunities</a></li>
+				</ul>
+				&copy;
+			</footer>
+		</div>
+	</body>
+<html>

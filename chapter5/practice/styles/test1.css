@@ -1,0 +1,15 @@
+div, header, p
+{
+	background-color: blue;
+	margin: 5px;
+}
+
+li
+{
+	display: inline;
+}
+
+span
+{
+	display: block;
+}

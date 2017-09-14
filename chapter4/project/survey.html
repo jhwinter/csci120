@@ -31,18 +31,18 @@
 			<fieldset>
 				<legend>Survey</legend>
 				
-				<p>
+				<div>
 					<label for="name">Name:</label>
 					<input type="text" name="name" id="name"
 					placeholder="John Smith" required=true/>
-				</p>				
+				</div>				
 			
-				<p>
+				<div>
 					<label for="phone">Phone:</label>
 					<input type="text" name="phone" id="phone" placeholder="####-###-####"/>
-				</p>
+				</div>
 
-				<p>
+				<div>
 					<label for="favDish">Favorite Dish</label>
 					<select name="favDish" id="favDish">
 						<option>Breakfast Tacos</option>
@@ -54,36 +54,36 @@
 						<option>Marinated Cheese Tray</option>
 						<option>Chocolate Peanut Butter Dirt Cake</opion>
 					</select>
-				</p>
+				</div>
 
-				<p>
+				<div>
 					<label for="restRating">Restaurant Rating</label> <br />
 					1<input type="range" min="1" max="10" step="1" name="restRating"/>10
-				</p>
+				</div>
 
-				<p>
+				<div>
 					<label for="restComments">Comments:</label> <br />
 					<textarea id="restComments" name="restComments" rows="10">How can we serve you better?</textarea>
 
-				</p>
+				</div>
 
-				<p>
+				<div>
 					<label name="visitDate">When did you visit us?</label>
 					<input type="date" name="visitDate" id="visitDate"/>
-				</p>
+				</div>
 
-				<p>
+				<div>
 					<label for="visitTime">What time did you visit us?</label> <br />
 					<input type="radio" name="visitTime" value="1" checked/>Early<br />
 					<input type="radio" name="visitTime" value="2"/>Midday<br />
 					<input type="radio" name="visitTime" value="3"/>Afternoon<br />
 					<input type="radio" name="visitTime" value="4"/>Evening<br />
-				</p>
+				</div>
 
-				<p>
+				<div>
 					<label for="sPublish">Do you allow us to use your responses in the published version of this survey?</label>
 					<input type="checkbox" name="sPublish" value="yes"/>yes
-				</p>
+				</div>
 
 				<input type="submit"/>
 				<input type="reset" value="Clear form"/>
