@@ -108,6 +108,17 @@ tbody tr:hover
 	color: black;
 }
 */
+
+.alignLeft
+{
+	float: left;
+}
+
+.alignRight
+{
+	float: right;
+}
+
 div.dish img
 {
 	max-width: 100%;
@@ -125,5 +136,6 @@ hide all dish images
 		display: none;
 	}
 }
+
 
 

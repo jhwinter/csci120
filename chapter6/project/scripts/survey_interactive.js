@@ -92,19 +92,21 @@ function resetAlert()
 }
 
 var submitBtnField = document.getElementById("btn_submit");
-submitBtnField.addEventListener("click", submitFunc);
+submitBtnField.addEventListener("submit", submitFunc);
 function submitFunc()
 {
 	var phoneNumberField = document.getElementById("phone");
 	var phoneNumber = phoneNumberField.value;
 	var paragraphField = document.getElementById("paraFour");
-	if (phoneNumber == null || phoneNumber == "")
-	{		
-		submitBtnField.addEventListener("submit", 
-			function(event){event.preventDefault()});
+	//if (phoneNumber == null || phoneNumber == "")
+	//variable will evaluate to true if value is not: null, undefined, NaN, empty string(""), 0, false
+	if (phoneNumber)
+	{
 		paragraphField.innerHTML = "Tricked you--phone number is required!";
 		paragraphField.style.color = "red";
 		paragraphField.style.backgroundColor = "gray";
+		submitBtnField.addEventListener("submit", 
+			function(event){event.preventDefault()});
 		return false;
 	}
 	else 

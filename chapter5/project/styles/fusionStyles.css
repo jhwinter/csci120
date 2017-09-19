@@ -108,6 +108,7 @@ tbody tr:hover
 	color: black;
 }
 */
+
 div.dish img
 {
 	max-width: 100%;
@@ -126,4 +127,12 @@ hide all dish images
 	}
 }
 
+.alignLeft
+{
+	float: left;
+}
 
+.alignRight
+{
+	float: right;
+}
