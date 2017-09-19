@@ -1,0 +1,129 @@
+h1,h2,h3,h4,h5,h6
+{
+	background-color: #d7e1f2;
+	font-weight: bold;
+	color: #1f2123;
+}
+
+div.dish
+{
+	background-color: rgb(247, 185, 86);
+	padding: 10px;
+	margin: 10px;
+	border-style: dashed;
+	border-weight: 2px;
+	border-color: blue;
+}
+
+header, footer
+{
+	background-color: #bc8e43;
+}
+
+footer
+{
+	font-size: 0.5rem;
+}
+
+nav
+{
+	background-color: #474644;
+	color: white;
+}
+
+nav li 
+{
+	list-style: none;
+}
+
+div.dish h1,h2,h3,h4,h5,h6
+{
+	font-style: italic;
+}
+
+div.dish 
+{
+	border-radius: 5%;
+}
+
+#location
+{
+	list-style-image: url("../images/arrowFile.png");
+}
+
+a:visited
+{
+	color: green;
+}
+
+nav a:visited
+{
+	color: orange;
+	text-decoration: none;
+}
+
+nav a
+{
+	text-decoration: none;
+}
+
+div.dish details
+{
+	color: red;
+}
+
+p.underConstruction
+{
+	color: orange;
+	font-style: italic;
+}
+/*
+table
+{
+	border: solid 1pt black;
+	border-collapse: collapse;
+}
+
+td, th
+{
+	border: solid 1pt black;
+}
+
+tbody tr:nth-child(odd)
+{
+	background-color: green;
+}
+
+tbody tr:hover
+{
+	background-color: blue;
+	color: white;
+}
+
+.orderTable
+{
+	border: solid 1pt black;
+	border-collapse: collapse;
+	background-color: white;
+	color: black;
+}
+*/
+div.dish img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+if the viewport is less than 350px wide,
+hide all dish images
+*/
+@media only screen and (max-width: 350px)
+{
+	div.dish img
+	{
+		display: none;
+	}
+}
+
+
