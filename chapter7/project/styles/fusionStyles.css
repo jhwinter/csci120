@@ -137,5 +137,19 @@ hide all dish images
 	}
 }
 
+/*Implementing an Analogous color scheme*/
+header,footer
+{
+	background-color: black;
+	color: white;
+}
 
+h1,h2,h3,h4,h5,h6
+{
+	background-color: teal;
+}
 
+div.dish
+{
+	background-color: green;
+}
