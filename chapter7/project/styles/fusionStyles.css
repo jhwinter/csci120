@@ -153,3 +153,13 @@ div.dish
 {
 	background-color: green;
 }
+
+div.dish details
+{
+	color: cyan;
+}
+
+div.dish details table, div.dish details table caption
+{
+	color: blue;
+}
