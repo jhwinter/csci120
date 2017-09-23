@@ -93,9 +93,9 @@ function resetAlert()
 
 var submitBtnField = document.getElementById("btn_submit");
 submitBtnField.addEventListener("submit", submitFunc);
+var paragraphField = document.getElementById("phone");
 function submitFunc()
 {
-	var phoneNumberField = document.getElementById("phone");
 	var phoneNumber = phoneNumberField.value;
 	var paragraphField = document.getElementById("paraFour");
 	//if (phoneNumber == null || phoneNumber == "")
