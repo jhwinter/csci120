@@ -79,6 +79,8 @@ function questionThree()
 		case "10":
 			paragraphField.innerHTML = "Please come again!";
 			break;
+		default:
+			paragraphField.innerHTML = "You broke my rating system, how do?";
 	}
 }
 
@@ -91,30 +93,34 @@ function resetAlert()
 	entirePageField.style.backgroundColor = "pink";
 }
 
+var paragraphField = document.getElementById("paraFour");
+//var phoneNumberField = document.getElementById("phone");
+var phoneNumber = phoneNumberField.value;
 var submitBtnField = document.getElementById("btn_submit");
-submitBtnField.addEventListener("submit", submitFunc);
-var paragraphField = document.getElementById("phone");
+submitBtnField.addEventListener("click", submitFunc);
 function submitFunc()
 {
-	var phoneNumber = phoneNumberField.value;
-	var paragraphField = document.getElementById("paraFour");
 	//if (phoneNumber == null || phoneNumber == "")
 	//variable will evaluate to true if value is not: null, undefined, NaN, empty string(""), 0, false
 	if (phoneNumber)
-	{
-		paragraphField.innerHTML = "Tricked you--phone number is required!";
-		paragraphField.style.color = "red";
-		paragraphField.style.backgroundColor = "gray";
-		submitBtnField.addEventListener("submit", 
-			function(event){event.preventDefault()});
-		return false;
-	}
-	else 
 	{
 		paragraphField.innerHTML = "Thanks--can I call you tomorrow?";
 		paragraphField.style.color = "green";
 		paragraphField.style.backgroundColor = "black";
 		return true;
+	}
+	else 
+	{
+		paragraphField.innerHTML = "Tricked you--phone number is required!";
+		paragraphField.style.color = "red";
+		paragraphField.style.backgroundColor = "gray";
+		/*
+		submitBtnField.addEventListener("click", function(event)
+		{
+			event.stopPropogation();
+		});
+		*/
+		return false;
 	}
 }
 
